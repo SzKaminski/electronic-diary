@@ -1,6 +1,6 @@
 package com.szkaminski.electronicdiary.infrastructure;
 
-import com.szkaminski.electronicdiary.catalogue.EntityId;
+import com.szkaminski.electronicdiary.application.EntityId;
 import com.szkaminski.electronicdiary.domain.student.Student;
 import com.szkaminski.electronicdiary.domain.student.StudentRepository;
 

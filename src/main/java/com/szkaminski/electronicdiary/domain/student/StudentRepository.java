@@ -1,6 +1,6 @@
 package com.szkaminski.electronicdiary.domain.student;
 
-import com.szkaminski.electronicdiary.catalogue.EntityId;
+import com.szkaminski.electronicdiary.application.EntityId;
 
 import java.util.Optional;
 

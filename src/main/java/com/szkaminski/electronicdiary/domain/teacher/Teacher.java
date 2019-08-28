@@ -1,7 +1,7 @@
 package com.szkaminski.electronicdiary.domain.teacher;
 
-import com.szkaminski.electronicdiary.catalogue.EntityId;
-import com.szkaminski.electronicdiary.catalogue.FullName;
+import com.szkaminski.electronicdiary.application.EntityId;
+import com.szkaminski.electronicdiary.application.FullName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NonNull;

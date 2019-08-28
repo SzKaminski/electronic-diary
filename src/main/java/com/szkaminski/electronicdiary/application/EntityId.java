@@ -1,4 +1,4 @@
-package com.szkaminski.electronicdiary.catalogue;
+package com.szkaminski.electronicdiary.application;
 
 import lombok.NonNull;
 import lombok.Value;
