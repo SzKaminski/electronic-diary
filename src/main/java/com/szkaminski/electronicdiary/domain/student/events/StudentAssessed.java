@@ -7,7 +7,7 @@ import com.szkaminski.electronicdiary.domain.teacher.Teacher;
 import lombok.Value;
 
 @Value
-public class StudentAssesed implements DomainEvent {
+public class StudentAssessed implements DomainEvent {
 
     EntityId studentId;
     EntityId teacherId;
