@@ -4,5 +4,6 @@ import com.szkaminski.electronicdiary.domain.Person;
 
 public interface EntitesFactory {
 
-     Person getEntity();
+     Person getStudent();
+     Person getTeacher();
 }

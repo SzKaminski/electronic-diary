@@ -2,7 +2,7 @@ package com.szkaminski.electronicdiary.application.creators.builders;
 
 import com.szkaminski.electronicdiary.application.EntityId;
 import com.szkaminski.electronicdiary.application.FullName;
-import com.szkaminski.electronicdiary.application.creators.StudentFactory;
+import com.szkaminski.electronicdiary.application.creators.PersonFactory;
 import com.szkaminski.electronicdiary.domain.student.Student;
 
 import java.util.UUID;
@@ -10,7 +10,7 @@ import java.util.UUID;
 public class StudentBuilder {
 
     private Student student;
-    private StudentFactory studentFactory;
+    private PersonFactory personFactory;
 
     public StudentBuilder() {
         student = new Student();
@@ -22,12 +22,12 @@ public class StudentBuilder {
     }
 
     public StudentBuilder withRandomName(){
-        student.setFullName(new FullName(studentFactory.getRandomName(),studentFactory.getRandomSurname()));
+        student.setFullName(new FullName(personFactory.getRandomName(), personFactory.getRandomSurname()));
         return this;
     }
 
     public StudentBuilder withRandomSubjects(){
-        student.setSubjects(studentFactory.getSubjects());
+        student.setSubjects(personFactory.getSubjects());
         return this;
     }
 
