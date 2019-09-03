@@ -15,6 +15,7 @@ public class TeacherBuilder {
 
     public TeacherBuilder() {
         this.teacher = new Teacher();
+        personFactory = new PersonFactory();
     }
 
     public TeacherBuilder withRandomId() {

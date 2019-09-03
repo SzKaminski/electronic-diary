@@ -14,6 +14,7 @@ public class StudentBuilder {
 
     public StudentBuilder() {
         student = new Student();
+        personFactory = new PersonFactory();
     }
 
     public StudentBuilder withRandomId(){

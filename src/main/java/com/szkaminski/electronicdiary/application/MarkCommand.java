@@ -1,5 +1,6 @@
 package com.szkaminski.electronicdiary.application;
 
+import com.szkaminski.electronicdiary.domain.Mark;
 import com.szkaminski.electronicdiary.domain.teacher.Teacher;
 import lombok.NonNull;
 import lombok.Value;
@@ -13,4 +14,6 @@ public class MarkCommand {
     EntityId teacherId;
     @NonNull
     Teacher.Specialization teacherSpecialization;
+    @NonNull
+    Mark mark;
 }
